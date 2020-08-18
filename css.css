@@ -1,60 +1,12 @@
-/*{
-    border: 1px solid red;
-}*/
+.bg {
+  /* The image used */
+  background-image: url("img_girl.jpg");
 
-/* ================  Setup de Base  ================ */
-    html {
-        font-family: monospace,arial;}
+  /* Full height */
+  height: 100%;
 
-    body{
-        margin:0px;}
-
-
-
-/* ================  Menu  ================ */
-
-    div#head {
-        color: gainsboro;
-        text-align: center;
-        padding: 55px; 
-        background: linear-gradient(90deg, rgba(3, 131, 171, 1), rgba(106, 0, 222, 0.78));}
-  
-    menu{
-        text-align: center;}
-
-    button {
-        margin-bottom: 15px;
-        display: inline-block;
-        padding: 15px 25px;
-        font-size: 24px;
-        font-family: monospace,arial;
-        cursor: pointer;
-        text-align: center;
-        text-decoration: silver;
-        outline: none;
-        color: #fff;
-        background-color: #7100eb;
-        border: 0px;
-        border-radius: 15px;
-        box-shadow: 3px 7px #999;}
-
-    button:hover {
-        background-color: #5000a7;
-        transition-duration: 0.5s;}
-
-    button:active {
-      background-color: #5000a7;
-      box-shadow: 1px 2px #666;
-      transform: translateY(4px);}
-
-
-
-/* ================  Presentation  ================ */
-
-    div#presentationInvite{
-        background-color: #34383c;
-        text-align: center;
-        padding: 20px;
-        color:white}
-
-    
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
