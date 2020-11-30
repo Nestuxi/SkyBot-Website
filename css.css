@@ -6,6 +6,7 @@
     html {
         font-family: monospace,arial;
         margin:0px;
+        background-color: #32353b;
     }
 
     body{
@@ -124,7 +125,7 @@
 /* ================  Presentation  ================ */
 
     div.content{
-        background-color: #33363b;
+        background-color: #32353b;
         text-align: center;
         padding: 20px;
         color:white;
